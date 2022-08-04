@@ -1,23 +1,12 @@
-import React, {useEffect} from "react";
+import React from "react";
 
-function PlanetsData (){
+function PlanetsData ({result}){
 
-    useEffect(()=>{
-        const options = {
-            method: 'GET',
-            headers: {
-                'X-RapidAPI-Key': '00d28b8eaamsh2bd70132ad051b9p161d37jsn26de235dfc27',
-                'X-RapidAPI-Host': 'planets-info-by-newbapi.p.rapidapi.com'
-            }
-        };
-        
-        fetch('https://planets-info-by-newbapi.p.rapidapi.com/api/v1/planet/list', options)
-            .then(response => response.json())
-            .then(response => console.log(response))
-            .catch(err => console.error(err));
-    })
-
-    return <div></div>
+    return <div id={result.id}>
+        <h1>{result.name}</h1>
+        <p>{result.description}</p>
+    </div>
+    
 }
     
 
