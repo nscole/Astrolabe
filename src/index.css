@@ -1,24 +1,57 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Rubik', sans-serif;
 }
 
 #header {
-  background-color: black;
-  height: 30px;
+  justify-content: space-around;
+  display: flex;
+  align-content: center;
+  font-family: 'Rubik', sans-serif;
+}
 
+#logoHeader{
+  margin-left: 40px;
+  display: inline-flex;
 }
 
 #header a{
-  padding-right: 16px;
-  color: white;
-  justify-content: right;
+  padding-right: 30px;
+  color: black;
 }
 
 #SpaceImage{
-  Width: 300px;
+  width:100%;
+  height: auto;
+  margin: 0%;
+}
+
+#navbox{
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  }
+
+
+/* Header Logo CSS */
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+	height: 40px;
+}
+
+#Homepage{
+  background-color: black;
+}
+
+#Footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 80px;
 }

@@ -2,8 +2,7 @@ import React from "react";
 import NasaImage from "./NasaImage";
 
 function Home(){
-    return <div>
-        Home Page
+    return <div id="Homepage">
         <NasaImage/>
     </div>
 }

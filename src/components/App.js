@@ -3,7 +3,8 @@ import Home from "./Home";
 import Planets from "./Planets";
 import ContactUs from "./ContactUs";
 import Header from "./Header";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Footer from "./Footer";
+import {BrowserRouter as Router, Route} from "react-router-dom"
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Route exact path="/contact-us">
         <ContactUs/>
       </Route>
+      <Footer/>
     </Router>
   );
 }
