@@ -3,70 +3,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
-/* Header Styling Start */
-#header {
-  justify-content: space-around;
-  display: flex;
-  align-content: center;
-  font-family: 'Rubik', sans-serif;
-  height: 80px;
-}
-
-#logoHeader{
-  margin-left: 40px;
-  display: inline-flex;
-  letter-spacing: 3px;
-}
-
-#logoHeader h1{
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#header a{
-  display: inline-flex;
-  align-content: center;
-  padding-right: 100px;
-  color: black;
-  text-decoration: none;
-  letter-spacing: 3px;
-  display: flex;
-  white-space: nowrap;
-}
-
 #SpaceImage{
   display: flex;
   width: 100%;
   margin: 0%;
-}
-
-#navbox{
-  display: flex;
-  text-transform: uppercase;
-  font-weight: 700;
-  width: 40%;
-  }
-
-#navbox ul{
-  display: flex;
-  padding-top: 15px;
-}
-
-#navbox li{
-  list-style: none;
-}
-
-/* Header Logo CSS */
-.logo {
-  margin-top: 20px;
-  margin-bottom: 20px;
-	height: 40px;
-}
-/* Header Styling End */
-
-
-#Homepage{
-  background-color: black;
 }
 
 /* Footer Styling */
@@ -81,67 +21,36 @@ body {
   height: 80px;
 }
 
-#burger {
-  display: none;
-  padding-top: 20px;
-  cursor: pointer;
+#container{
+  height: 100px;
 }
 
-#burger div{
-  width: 30px;
-  height: 3px;
-  margin: 6px;
-  background-color: aqua;
+/* Header Logo CSS */
+#logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+	height: 40px;
 }
 
-@media (max-width:1024px) {
-  #navbox{
-    width: 40%;
-    padding: 0, 5px, 0, 5px;
-  }
+#navh1 {
+  font-size: large;
+  padding-right: 300px;
 }
 
-@media (max-width:1100px) {
-  body{
-  overflow-x: hidden;
-  }
-  #header {
-    justify-content: space-around;
-    display: flex;
-    align-content: center;
-  }
-
-  #logoHeader{
-    justify-content: center;
-    align-content: center;
-    height: 80px;
-    display: inline-flex;
-    letter-spacing: 3px;
-  }
-
-  #navbox ul{
-    position: absolute;
-    right: 0px;
-    height: 500px;
-    width: 50%;
-    top: 5vh;
-    background-color: pink;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
-
-  #navbox li{
-    opacity: 0;
-  }
-
-  #burger{
-    display: block;
-  }
+#navbarText{
+  float: right;
 }
 
-#navbox-active{
-  transform: translateX(0);
+#navbar-nav{
+  background-color: green;
+  justify-content: space-around;
+
+}
+
+#nav-link{
+  padding: 100px;
+}
+
+#dropdown-menu{
+  padding-left: 100px;
 }

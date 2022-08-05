@@ -15,7 +15,7 @@ function Planets(){
         fetch('https://planets-info-by-newbapi.p.rapidapi.com/api/v1/planet/list', options)
             .then(response => response.json())
             .then((data) => {
-                // console.log(data),
+                console.log(data),
                 setPlanets(data);
             })
     }, [])
@@ -23,6 +23,7 @@ function Planets(){
     return <ul>
         <div>Planets</div>
     {planets.map(item => {return <PlanetsData key={item.id} result={item} />})}
+    
 </ul>;
 }
 
