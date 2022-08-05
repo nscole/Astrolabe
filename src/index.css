@@ -21,36 +21,78 @@ body {
   height: 80px;
 }
 
-#container{
-  height: 100px;
+.container-fluid{
+  
+  background-color: blueviolet;
 }
 
-/* Header Logo CSS */
+
 #logo {
-  margin-top: 20px;
-  margin-bottom: 20px;
 	height: 40px;
-}
-
-#navh1 {
-  font-size: large;
-  padding-right: 300px;
-}
-
-#navbarText{
-  float: right;
+  padding-right: 150px;
+  padding-left: 50px;
 }
 
 #navbar-nav{
-  background-color: green;
+  width: 500px;
   justify-content: space-around;
 
 }
 
-#nav-link{
-  padding: 100px;
+#navbarText{
+  color: blueviolet;
+
+}
+
+#navbar-nav{
+  font-size: medium;
+  font-family: 'Rubik', sans-serif;
+
 }
 
 #dropdown-menu{
   padding-left: 100px;
+}
+
+/* Planets Together */
+.row{
+    display:flex;
+    margin: 0 auto;
+
+}
+
+/* Image CSS */
+#sun-img{
+  height: 500px;
+}
+#mercury-img{
+  height: 65px;
+}
+
+#venus-img{
+  height: 115px;
+}
+
+#earth-img{
+  height: 132px;
+}
+
+#mars-img{
+  height: 86px;
+}
+
+#jupiter-img{
+  height: 231px;
+}
+
+#saturn-img{
+  height: 200px;
+}
+
+#uranus-img{
+  height: 160px;
+}
+
+#neptune-img{
+  height: 150px;
 }
