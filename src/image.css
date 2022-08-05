@@ -1,0 +1,67 @@
+/* Planets Together */
+.row{
+    display:flex;
+    margin: 0 auto;
+
+}
+
+.planetstogether{
+  background-color: black;
+  display: inline-flex;
+  align-items: center;
+  height: 600px;
+  justify-content: center;
+
+}
+
+h5{
+  color: white;
+  font-size: medium;
+  padding-top: 5px;
+  align-items: center;
+
+}
+
+.planetdivs{
+  padding: 2px;
+  display: flex;
+  display: inline;
+  text-align: center;
+}
+
+/* Image CSS */
+#sun-img{
+  height: 500px;
+  padding-right: 10px;
+}
+#mercury-img{
+  height: 65px;
+}
+
+#venus-img{
+  height: 115px;
+}
+
+#earth-img{
+  height: 132px;
+}
+
+#mars-img{
+  height: 86px;
+}
+
+#jupiter-img{
+  height: 231px;
+}
+
+#saturn-img{
+  height: 200px;
+}
+
+#uranus-img{
+  height: 160px;
+}
+
+#neptune-img{
+  height: 150px;
+}

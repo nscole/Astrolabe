@@ -4,7 +4,7 @@ import logo from "../assets/star-logo.png";
 
 function Header(){
 
-    return <div className = "container-fluid justify-content-center">
+    return <div className = "container-fluid HeaderNav">
          <nav className="navbar navbar-expand-lg navbar-light justify-content-center">
         <img src={logo} id="logo" alt="Astrolabe Logo"/>
         <button className="navbar-toggler align-center" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

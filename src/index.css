@@ -21,8 +21,7 @@ body {
   height: 80px;
 }
 
-.container-fluid{
-  
+.HeaderNav{
   background-color: blueviolet;
 }
 
@@ -36,12 +35,6 @@ body {
 #navbar-nav{
   width: 500px;
   justify-content: space-around;
-
-}
-
-#navbarText{
-  color: blueviolet;
-
 }
 
 #navbar-nav{
@@ -52,47 +45,4 @@ body {
 
 #dropdown-menu{
   padding-left: 100px;
-}
-
-/* Planets Together */
-.row{
-    display:flex;
-    margin: 0 auto;
-
-}
-
-/* Image CSS */
-#sun-img{
-  height: 500px;
-}
-#mercury-img{
-  height: 65px;
-}
-
-#venus-img{
-  height: 115px;
-}
-
-#earth-img{
-  height: 132px;
-}
-
-#mars-img{
-  height: 86px;
-}
-
-#jupiter-img{
-  height: 231px;
-}
-
-#saturn-img{
-  height: 200px;
-}
-
-#uranus-img{
-  height: 160px;
-}
-
-#neptune-img{
-  height: 150px;
 }
