@@ -6,10 +6,11 @@
 }
 
 .planetstogether{
-  background-color: black;
+  background-image: url(/src/assets/nightskyimage.jpg);
+  background-size: 1500px;
   display: inline-flex;
   align-items: center;
-  height: 600px;
+  height: 700px;
   justify-content: center;
 
 }
@@ -36,6 +37,7 @@ h5{
 }
 #mercury-img{
   height: 65px;
+  padding-right: 10px;
 }
 
 #venus-img{
@@ -65,3 +67,11 @@ h5{
 #neptune-img{
   height: 150px;
 }
+
+/* Button Style */
+.buttonStyle{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+}
+

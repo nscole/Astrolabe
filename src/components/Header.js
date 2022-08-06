@@ -25,7 +25,10 @@ function Header(){
                 <NavLink  className="nav-link" exact to="/contact-us">Contact Us</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink  className="nav-link" exact to="/test">Test</NavLink>
+                <NavLink  className="nav-link" exact to="/test1">Test1</NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink  className="nav-link" exact to="/test2">Test2</NavLink>
             </li>
           </ul>
           
@@ -35,7 +38,7 @@ function Header(){
                 <NavLink className="dropdown-item" exact to="/planets">Planets</NavLink>
                 <NavLink className="dropdown-item" exact to="/article">Article</NavLink>
                 <NavLink className="dropdown-item" exact to="/contact-us">Contact Us</NavLink>
-                <NavLink className="dropdown-item" exact to="/test">Test</NavLink>
+                <NavLink className="dropdown-item" exact to="/test2">Test2</NavLink>
             </div>
           </div>
         
