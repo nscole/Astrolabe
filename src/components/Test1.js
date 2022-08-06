@@ -13,7 +13,6 @@ import '../image.css';
 import '../popup.css';
 
 
-
 function Test1(){
     const [mercuryPopUp, setMercuryPopUp] = useState(false);
     const [VenusPopUp, setVenusPopUp] = useState(false);
@@ -26,13 +25,11 @@ function Test1(){
 
     return <div className="container-fluid planetstogether">
             <div className="planetdivs">
-                <img id="sun-img" src={Sun} alt="Sun Space Image"/>
+                <img id="sun-img" src={Sun} alt="Sun Space"/>
             </div>
-
-
             <div className="planetdivs">
                 <main>
-                    <button className="buttonStyle" onClick={()=> setMercuryPopUp(true)}><img id="mercury-img" src={Mercury} alt="Mercury Space Image"/></button>
+                    <button className="buttonStyle" onClick={()=> setMercuryPopUp(true)}><img id="mercury-img" src={Mercury} alt="Mercury Space"/></button>
                     <h5>Mercury</h5>
                 </main>
                 <Popup trigger={mercuryPopUp} setTrigger={setMercuryPopUp}>
@@ -41,7 +38,7 @@ function Test1(){
             </div>
             <div className="planetdivs">
                 <main>
-                    <button className="buttonStyle" onClick={()=> setVenusPopUp(true)}><img id="venus-img" src={Venus} alt="Venus Space Image"/></button>
+                    <button className="buttonStyle" onClick={()=> setVenusPopUp(true)}><img id="venus-img" src={Venus} alt="Venus Space"/></button>
                     <h5>Venus</h5>
                 </main>
                 <Popup trigger={VenusPopUp} setTrigger={setVenusPopUp}>
@@ -50,7 +47,7 @@ function Test1(){
             </div>
             <div className="planetdivs">
                 <main>
-                    <button className="buttonStyle" onClick={()=> setEarthPopUp(true)}><img id="earth-img" src={Earth} alt="Earth Space Image"/></button>
+                    <button className="buttonStyle" onClick={()=> setEarthPopUp(true)}><img id="earth-img" src={Earth} alt="Earth Space"/></button>
                     <h5>Earth</h5>
                 </main>
                 <Popup trigger={EarthPopUp} setTrigger={setEarthPopUp}>
@@ -59,7 +56,7 @@ function Test1(){
             </div>
             <div className="planetdivs">
                 <main>
-                    <button className="buttonStyle" onClick={()=> setMarsPopUp(true)}><img id="mars-img" src={Mars} alt="Mars Space Image"/></button>
+                    <button className="buttonStyle" onClick={()=> setMarsPopUp(true)}><img id="mars-img" src={Mars} alt="Mars Space"/></button>
                     <h5>Mars</h5>
                 </main>
                 <Popup trigger={MarsPopUp} setTrigger={setMarsPopUp}>
@@ -68,7 +65,7 @@ function Test1(){
             </div>
             <div className="planetdivs">
                 <main>
-                    <button className="buttonStyle" onClick={()=> setJupiterPopUp(true)}><img id="jupiter-img" src={Jupiter} alt="Jupiter Space Image"/></button>
+                    <button className="buttonStyle" onClick={()=> setJupiterPopUp(true)}><img id="jupiter-img" src={Jupiter} alt="Jupiter Space"/></button>
                     <h5>Jupiter</h5>
                 </main>
                 <Popup trigger={JupiterPopUp} setTrigger={setJupiterPopUp}>
@@ -77,7 +74,7 @@ function Test1(){
             </div>
             <div className="planetdivs">
                 <main>
-                    <button className="buttonStyle" onClick={()=> setSaturnPopUp(true)}><img id="saturn-img" src={Saturn} alt="Saturn Space Image"/></button>
+                    <button className="buttonStyle" onClick={()=> setSaturnPopUp(true)}><img id="saturn-img" src={Saturn} alt="Saturn Space"/></button>
                     <h5>Saturn</h5>
                 </main>
                 <Popup trigger={SaturnPopUp} setTrigger={setSaturnPopUp}>
@@ -86,7 +83,7 @@ function Test1(){
             </div>
             <div className="planetdivs">
                 <main>
-                    <button className="buttonStyle" onClick={()=> setUranusPopUp(true)}><img id="uranus-img" src={Uranus} alt="Uranus Space Image"/></button>
+                    <button className="buttonStyle" onClick={()=> setUranusPopUp(true)}><img id="uranus-img" src={Uranus} alt="Uranus Space"/></button>
                     <h5>Uranus</h5>
                 </main>
                 <Popup trigger={UranusPopUp} setTrigger={setUranusPopUp}>
@@ -95,7 +92,7 @@ function Test1(){
             </div>
             <div className="planetdivs">
                 <main>
-                    <button className="buttonStyle" onClick={()=> setNeptunePopUp(true)}><img id="neptune-img" src={Neptune} alt="Neptune Space Image"/></button>
+                    <button className="buttonStyle" onClick={()=> setNeptunePopUp(true)}><img id="neptune-img" src={Neptune} alt="Neptune Space"/></button>
                     <h5>Neptune</h5>
                 </main>
                 <Popup trigger={NeptunePopUp} setTrigger={setNeptunePopUp}>
