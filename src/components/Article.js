@@ -1,15 +1,19 @@
-import React from "react";
-// import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
+import PlanetsDB from "./Planetsdb";
 
 function Article(){
 
-
-    fetch("http://localhost:4000/Planets")
+    const[mercuryData, setMercuryData] = useState([]);
+    useEffect(() =>{
+        fetch("http://localhost:4000/Mercury")
     .then(response => response.json())
-    .then((data) => {console.log(data)});
-
+    .then((data) => {
+        // console.log(data),
+        setMercuryData(data);
+    })
+}, [])
     return <div>
-        ArticlePage
+        {mercuryData.map(mercuryitem => <PlanetsDB key={mercuryitem.id} mercuryresult={mercuryitem}/>)}
     </div>
 }
 
