@@ -1,0 +1,54 @@
+.box-a{
+    background-color: aqua;
+    width: 620px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display:inline-flex;
+}
+
+#SpaceImage{
+    width: 200px;
+    height: auto;
+}  
+
+/* Most Popular Styling */
+.box-b{
+    background-color: rgb(255, 0, 132);
+    width: 300px;
+    display:inline-flex;
+}
+
+.articles-container{
+    padding: 15px;
+}
+
+/* Blog Styling */
+.box-c{
+    display: flex;
+}
+
+.blog-container{
+    background-color: blueviolet;
+    height:250px;
+    width: 300px;
+    display:inline-flex;
+    margin-right: 20px;
+}
+
+.blog-text{
+    padding: 20px;
+    color: white;
+}
+
+
+
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    font-size: large;
+}
+

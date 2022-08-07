@@ -8,16 +8,6 @@
           "id": 2,
           "name": "Kelly Cairncross",
           "email": "KCross@hotmail.com"}
-      ],
-      "Planets": [
-        {
-          "id": 1,
-          "name": "saturn",
-          "email": "is a planet"},
-          {
-            "id": 2,
-            "name": "Kelly Cairncross",
-            "email": "KCross@hotmail.com"}
-        ]
+      ]
   }
 

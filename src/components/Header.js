@@ -19,7 +19,7 @@ function Header(){
                 <NavLink className="nav-link" exact to="/planets">Planets</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink  className="nav-link" exact to="/article">Article</NavLink>
+                <NavLink  className="nav-link" exact to="/articles">Articles</NavLink>
             </li>
             <li className="nav-item">
                 <NavLink  className="nav-link" exact to="/contact-us">Contact Us</NavLink>
@@ -28,7 +28,7 @@ function Header(){
                 <NavLink  className="nav-link" exact to="/test1">Test1</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink  className="nav-link" exact to="/test2">Test2</NavLink>
+                <NavLink  className="nav-link" exact to="/comment">Comment</NavLink>
             </li>
           </ul>
           
@@ -36,12 +36,12 @@ function Header(){
             <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <NavLink className="dropdown-item" exact to="/">Home</NavLink>
                 <NavLink className="dropdown-item" exact to="/planets">Planets</NavLink>
-                <NavLink className="dropdown-item" exact to="/article">Article</NavLink>
+                <NavLink className="dropdown-item" exact to="/articles">Articles</NavLink>
                 <NavLink className="dropdown-item" exact to="/contact-us">Contact Us</NavLink>
-                <NavLink className="dropdown-item" exact to="/test2">Test2</NavLink>
+                <NavLink className="dropdown-item" exact to="/Comment
+                ">Comment</NavLink>
             </div>
           </div>
-        
       </nav>
     </div>
 }

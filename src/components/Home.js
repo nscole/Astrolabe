@@ -1,5 +1,5 @@
 import React from "react";
-import NasaImage from "./NasaImage";
+import NasaImage from "./ArticlesData";
 
 function Home(){
     return <div id="Homepage">

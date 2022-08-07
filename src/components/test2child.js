@@ -1,9 +1,9 @@
 import React from 'react'
 
-function test2child() {
+function Test2child() {
   return (
-    <div>test2child</div>
+    <div>Test2child</div>
   )
 }
 
-export default test2child
+export default Test2child

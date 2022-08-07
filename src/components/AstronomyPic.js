@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 
-function NasaImage() {
+function AstronomyPic() {
   const [spaceImage, setSpaceImage] = useState("");
 
   useEffect(() =>{
@@ -14,7 +14,9 @@ function NasaImage() {
 
   return <div>
     <img id="SpaceImage" alt="Space Images" src={spaceImage.url}/>
+    <h1>{spaceImage.title}</h1>
+    <p>{spaceImage.date}</p>
   </div>;
 }
 
-export default NasaImage;
+export default AstronomyPic;
