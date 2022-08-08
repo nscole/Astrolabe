@@ -15,7 +15,9 @@ function AstronomyPic() {
   return <div className="NASA-header">
     <h1>NASA Picture Of The Day</h1>
       <div className="space-image-container">
-        <img id="SpaceImage" alt="Space Images" src={spaceImage.url}/>
+        <div className="spacebox box2"> 
+          <img alt="Space Images" src={spaceImage.url}/>
+        </div>
         <h2>{spaceImage.title}</h2>
         <p>{spaceImage.date}</p>
       </div>

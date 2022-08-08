@@ -1,3 +1,5 @@
+
+
 .articles{
     background-image: url(/src/assets/articles-image.jpg);
     background-size:cover;
@@ -17,29 +19,36 @@ a:hover {
     color: dimgray; 
 }
 
+p{
+    font-size: 14px;
+    font-weight: thin;
+    font-style: italic;
+}
 
 
 .box-a{
     border-top: 5px solid blueviolet;
     background-color: white;
-    width: 620px;
+    width: 720px;
     margin-right: 20px;
     margin-bottom: 20px;
     display: inline-flex;
     position: relative;
     margin-top: 40px;
+    height: 630px;
 }
 
 .NASA-header h1{
     padding-left: 15px;
     background-color: blueviolet;
-    width: 285px;
+    width: 290px;
     height: 30px;
     color: white;
     font-size: large;
     padding-bottom: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
 
 .space-image-container{
@@ -47,20 +56,18 @@ a:hover {
     justify-content: center;
 }
 
-#SpaceImage{
-    width: 590px;
-    height: auto;
-}  
-
-.space-image-container h2{
-    padding-top: 10px;
-    font-size: x-large;
-    padding-bottom: 0px;
+.spacebox img{
+    width: 690px;
+    height: 500px;
+    margin-bottom: 10px;
 }
 
-.space-image-container p{
-    font-size: smaller;
-    font-style: italic;
+.box2 img{
+    object-fit: cover;
+}
+
+.space-image-container h2{
+    font-size: 25px;
 }
 
 /* Most Popular Styling */
@@ -68,39 +75,39 @@ a:hover {
     border-top: 5px solid blueviolet;
     margin-top: 40px;
     background-color: white;
-    width: 300px;
+    width: 350px;
     display: inline-flex;
     position: absolute;
-    height: 950px;
+    height: 630px;
 }
 
 .most-popular-container h1{
     background-color: blueviolet;
     height: 30px;
-    width: 170px;
+    width: 180px;
     padding-left: 15px;
     color: white;
+    font-size: large;
+    margin-bottom: 10px;
+    letter-spacing: 1.2px;
 }
+
 
 .articles-text h2{
-    font-size: medium;
+    font-size: 18px;
 }
 
-p{
-    font-size: small;
-    padding: 0px;
-}
 
 .articles-container{
     padding: 0 15px 0px 15px;
-    height: 210px;
+    height: 155px;
 }
 
 .box img {
-    width: 270px;
-    height: 130px;
-    padding-bottom: 10px;
-    position:absolute;
+    width: 110px;
+    height: 100px;
+    float: right;
+    margin-left: 10px;
 }
 
 .box1 img {
@@ -108,37 +115,37 @@ p{
 }
 
 
-.most-popular-container h1{
-    font-size: large;
-}
 
-/* Blog Styling */
+/* Blog Post Styling */
 
 .blog-container{
     background-color: white;
-    height: 300px;
-    width: 300px;
+    height: 320px;
+    width: 350px;
     display: inline-block; vertical-align: top;
     margin-right: 20px;
     margin-bottom: 50px;
 }
 
 .blog-text h1{
-    color: black;
-    font-size: larger;
-    padding: 10px 0 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 10px 0px 10px;
 }
 
 .blog-text p{
-    padding-left: 10px;
-    font-size: smaller;
-    font-style: italic;
-    padding-top: 5px;
+    margin: 10px 10px 0 10px;
 }
 
-#blog-images{
-    width: 300px;
+.blogbox img {
+    width: 350px;
+    height: 180px;
 }
+
+.box3 img {
+    object-fit: cover;
+}
+
 
 /* Blog Finishing */
 

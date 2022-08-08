@@ -6,7 +6,7 @@ import SmallBlog from './SmallBlog';
 function BlogData() {
     const [blogData, setBlogData] = useState([]);
     useEffect(()=>{
-        fetch("https://api.spaceflightnewsapi.net/v3/blogs?_limit=2")
+        fetch("https://api.spaceflightnewsapi.net/v3/blogs?_limit=3")
         .then((r)=>r.json())
         .then((data)=>{
             // console.log(data),

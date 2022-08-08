@@ -8,7 +8,7 @@ function ArticlesData() {
         fetch("https://api.spaceflightnewsapi.net/v3/articles?_limit=4")
         .then((r)=>r.json())
         .then((data)=>{
-            // console.log(data);
+            console.log(data);
             setArtData(data);
         })
     },[])
