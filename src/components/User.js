@@ -29,6 +29,7 @@ function User ({ name, email, comment, id, onEdit, onDelete }) {
         </form>
       ) : (
         <div className="user">
+          
           <span className="user-name">{name}</span>
           <span className="user-email">{email}</span>
           <span className="user-comment">{comment}</span>
