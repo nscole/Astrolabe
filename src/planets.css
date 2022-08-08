@@ -36,36 +36,39 @@ h5{
   padding-right: 10px;
 }
 #mercury-img{
-  height: 65px;
+  width: 65px;
+  
   padding-right: 10px;
 }
 
 #venus-img{
+  width: 115px;
   height: 115px;
 }
 
 #earth-img{
+  width: 132px;
   height: 132px;
 }
 
 #mars-img{
-  height: 86px;
+  width: 86px;
 }
 
 #jupiter-img{
-  height: 231px;
+  width: 231px;
 }
 
 #saturn-img{
-  height: 200px;
+  width: 200px;
 }
 
 #uranus-img{
-  height: 160px;
+  width: 160px;
 }
 
 #neptune-img{
-  height: 150px;
+  width: 150px;
 }
 
 /* Button Style */

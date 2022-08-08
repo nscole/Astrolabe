@@ -1,20 +1,11 @@
-import React from 'react'
-import AstronomyPic from './AstronomyPic';
-import ArticlesData from './ArticlesData';
+import React from 'react';
+import CommentForm from './CommentForm';
 
 function Test1() {
   return (
-    <div class="wrapper">
-        <div class="featured-archive">
-            <div class="FA">
-                <div class="feat">
-                
-
-                </div>    
-            </div>
-         </div>
+    <div>Hello
+    <CommentForm/>
     </div>
-      
   )
 }
 

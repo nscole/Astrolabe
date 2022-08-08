@@ -4,10 +4,15 @@ function SmallDataArticles({result}) {
   return (
     <div className="articles-container" id={result.id}>
         <div className='articles-text'>
-        <h1>{result.title}</h1>
-        <img src={result.imageUrl} alt="News Images"/>
-        <p>{result.newsSite}</p>
+          <a href=''>
+            <h2>{result.title}</h2>
+            <p>{result.newsSite}</p>
+            <div className="box box1">
+            <img id='article-images' src={result.imageUrl} alt="News Images"/>
+            </div>
+          </a>
         </div>
+        
     </div>
   )
 }

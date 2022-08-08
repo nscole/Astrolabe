@@ -6,7 +6,7 @@ import ContactUs from "./ContactUs";
 import Header from "./Header";
 import Footer from "./Footer";
 import Test1 from "./Test1";
-import Comment from "./Comment";
+import CommentForm from "./CommentForm";
 import {BrowserRouter as Router, Route} from "react-router-dom"
 
 
@@ -27,8 +27,8 @@ function App() {
       <Route exact path="/test1">
         <Test1/>
       </Route>
-      <Route exact path="/comment">
-        <Comment/>
+      <Route exact path="/CommentForm">
+        <CommentForm/>
       </Route>
       <Route exact path="/contact-us">
         <ContactUs/>

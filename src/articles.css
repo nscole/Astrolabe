@@ -1,54 +1,146 @@
+.articles{
+    background-image: url(/src/assets/articles-image.jpg);
+    background-size:cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: top;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+}
+
+a:hover { 
+    text-decoration: none;
+    color: dimgray; 
+}
+
+
+
 .box-a{
-    background-color: aqua;
+    border-top: 5px solid blueviolet;
+    background-color: white;
     width: 620px;
     margin-right: 20px;
     margin-bottom: 20px;
-    display:inline-flex;
+    display: inline-flex;
+    position: relative;
+    margin-top: 40px;
+}
+
+.NASA-header h1{
+    padding-left: 15px;
+    background-color: blueviolet;
+    width: 285px;
+    height: 30px;
+    color: white;
+    font-size: large;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.space-image-container{
+    padding: 0 15px;
+    justify-content: center;
 }
 
 #SpaceImage{
-    width: 200px;
+    width: 590px;
     height: auto;
 }  
 
+.space-image-container h2{
+    padding-top: 10px;
+    font-size: x-large;
+    padding-bottom: 0px;
+}
+
+.space-image-container p{
+    font-size: smaller;
+    font-style: italic;
+}
+
 /* Most Popular Styling */
 .box-b{
-    background-color: rgb(255, 0, 132);
+    border-top: 5px solid blueviolet;
+    margin-top: 40px;
+    background-color: white;
     width: 300px;
-    display:inline-flex;
+    display: inline-flex;
+    position: absolute;
+    height: 950px;
 }
 
-.articles-container{
-    padding: 15px;
-}
-
-/* Blog Styling */
-.box-c{
-    display: flex;
-}
-
-.blog-container{
+.most-popular-container h1{
     background-color: blueviolet;
-    height:250px;
-    width: 300px;
-    display:inline-flex;
-    margin-right: 20px;
-}
-
-.blog-text{
-    padding: 20px;
+    height: 30px;
+    width: 170px;
+    padding-left: 15px;
     color: white;
 }
 
-
-
-
-img{
-    width: 200px;
-    height: auto;
+.articles-text h2{
+    font-size: medium;
 }
 
-h1 {
+p{
+    font-size: small;
+    padding: 0px;
+}
+
+.articles-container{
+    padding: 0 15px 0px 15px;
+    height: 210px;
+}
+
+.box img {
+    width: 270px;
+    height: 130px;
+    padding-bottom: 10px;
+    position:absolute;
+}
+
+.box1 img {
+    object-fit: cover;
+}
+
+
+.most-popular-container h1{
     font-size: large;
 }
+
+/* Blog Styling */
+
+.blog-container{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    display: inline-block; vertical-align: top;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.blog-text h1{
+    color: black;
+    font-size: larger;
+    padding: 10px 0 0 10px;
+}
+
+.blog-text p{
+    padding-left: 10px;
+    font-size: smaller;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+#blog-images{
+    width: 300px;
+}
+
+/* Blog Finishing */
+
+
 

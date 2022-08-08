@@ -5,7 +5,7 @@ function ArticlesData() {
 
     const [artData, setArtData] = useState([]);
     useEffect(()=>{
-        fetch("https://api.spaceflightnewsapi.net/v3/articles?_limit=6")
+        fetch("https://api.spaceflightnewsapi.net/v3/articles?_limit=4")
         .then((r)=>r.json())
         .then((data)=>{
             // console.log(data);
@@ -13,7 +13,7 @@ function ArticlesData() {
         })
     },[])
     return <div className="most-popular-container">
-            <h1>Most Popular</h1>
+            <h1>MOST POPULAR</h1>
         {artData.map(item => {return <SmallDataArticles key={item.id} result={item} />})}
     </div>;
 }

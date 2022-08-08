@@ -12,10 +12,13 @@ function AstronomyPic() {
     })
   }, []);
 
-  return <div>
-    <img id="SpaceImage" alt="Space Images" src={spaceImage.url}/>
-    <h1>{spaceImage.title}</h1>
-    <p>{spaceImage.date}</p>
+  return <div className="NASA-header">
+    <h1>NASA Picture Of The Day</h1>
+      <div className="space-image-container">
+        <img id="SpaceImage" alt="Space Images" src={spaceImage.url}/>
+        <h2>{spaceImage.title}</h2>
+        <p>{spaceImage.date}</p>
+      </div>
   </div>;
 }
 

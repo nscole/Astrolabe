@@ -6,14 +6,12 @@ import '../articles.css';
 
 function Articles() {
 
-
   return (
-    <div>
-      <h1>Articles</h1>
+    <div className='articles'>
       <article className="wrapper">
-        <div className="box-a"><AstronomyPic/></div>
-        <div className="box-b"><ArticlesData/></div>
-        <div className="box-c"><BlogData/></div>
+          <a href="https://apod.nasa.gov/apod/astropix.html" className="box-a"><AstronomyPic/></a>
+          <div className="box-b"><ArticlesData/></div>
+          <div className="box-c"><BlogData/></div>
       </article>
     </div>
   )
