@@ -6,24 +6,25 @@ function CommentForm() {
 
   const [users, setUsers] = useState([]);
 
-  useEffect(() => {
-    fetchData();
+  useEffect((users) => {
+    fetchData(users);
   }, []);
 
-  const fetchData = async () => {
-    await fetch("http://localhost:4000/comments")
+  const fetchData = async (users) => {
+    await fetch("http://localhost:4000/comments", users)
       .then((response) => response.json())
       .then((data) => setUsers(data))
       .catch((error) => console.log(error));
   };
 
+ 
   const onAdd = async (name, email, comment) => {
     await fetch("http://localhost:4000/comments", {
       method: "POST",
       body: JSON.stringify({
         name: name,
         email: email,
-        comment: comment
+        comment: comment,
       }),
       headers: {
         "Content-type": "application/json; charset=UTF-8"
@@ -43,7 +44,7 @@ function CommentForm() {
   };
 
   const onEdit = async (id, name, email, comment) => {
-    await fetch(`http://localhost:4000/comments${id}`, {
+    await fetch(`http://localhost:4000/comments/${id}`, {
       method: "PUT",
       body: JSON.stringify({
         name: name,
@@ -64,7 +65,7 @@ function CommentForm() {
       .then((users) => {
         // setUsers((users) => [...users, data]);
         const updatedUsers = users.map((user) => {
-          if (user.id === id) {
+          if (user.id == id) {
             user.name = name;
             user.email = email;
             user.comment = comment;
@@ -73,14 +74,14 @@ function CommentForm() {
           return user;
         });
 
-        setUsers((users) => updatedUsers);
+        setUsers(updatedUsers);
       })
       .catch((error) => console.log(error));
   };
 
   
   const onDelete = async (id) => {
-    await fetch(`http://localhost:4000/comments${id}`, {
+    await fetch(`http://localhost:4000/comments/${id}`, {
       method: "DELETE"
     })
       .then((response) => {
