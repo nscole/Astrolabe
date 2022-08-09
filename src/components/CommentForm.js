@@ -61,7 +61,7 @@ function CommentForm() {
           return response.json();
         }
       })
-      .then((data) => {
+      .then((users) => {
         // setUsers((users) => [...users, data]);
         const updatedUsers = users.map((user) => {
           if (user.id === id) {
@@ -78,6 +78,7 @@ function CommentForm() {
       .catch((error) => console.log(error));
   };
 
+  
   const onDelete = async (id) => {
     await fetch(`http://localhost:4000/comments${id}`, {
       method: "DELETE"
@@ -98,7 +99,10 @@ function CommentForm() {
 
   return (
     <div className="Form">
-      <AddUser onAdd={onAdd} />
+      <div className='add-user'>
+        <AddUser onAdd={onAdd} />
+      </div>
+      <div className='posted-comments'>
       {users.map((user) => (
         <User
           id={user.id}
@@ -110,6 +114,7 @@ function CommentForm() {
           onDelete={onDelete}
         />
       ))}
+      </div>
     </div>
   );
 }

@@ -19,9 +19,9 @@ function User ({ name, email, comment, id, onEdit, onDelete }) {
   };
 
   return (
-    <div>
+    <div className="comment-section-user">
       {isEdit ? (
-        <form onSubmit={handleOnEditSubmit}>
+        <form  onSubmit={handleOnEditSubmit}>
           <input placeholder="Name" name="name" defaultValue={name} />
           <input placeholder="Email" name="email" defaultValue={email} />
           <textarea placeholder="Comment" name="comment" defaultValue={comment} />
