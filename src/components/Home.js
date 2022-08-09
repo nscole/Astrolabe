@@ -5,10 +5,13 @@ import '../home.css';
 
 function Home(){
     return <div id="Homepage">
-        <div>
-        <button className="glow-on-hover" type="button">Start your Journey Now</button>
-            <img className="homepage-image" src={HomepageImage} alt="Earth from space"/>
+        <div className="buttonbox">
+            <h1>Welcome to space</h1>
+            <br/>
+            <button className="glow-on-hover" type="button">Journey into space</button>
         </div>
+        <img className="homepage-image" src={HomepageImage} alt="Earth from space"/>
+
         <div className="homepage-articles-header">
                 <h1>Articles</h1>
         </div>
