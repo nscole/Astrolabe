@@ -3,7 +3,7 @@ import CommentForm from './CommentForm';
 import '../blogstyles.css';
 
 
-function Test1(image) {
+function BlogPage() {
 
   let date = new Date().toLocaleDateString('en-us', { weekday:"long", day:"numeric", month:"long", year:"numeric"});
 
@@ -31,4 +31,4 @@ function Test1(image) {
   )
 }
 
-export default Test1
+export default BlogPage;

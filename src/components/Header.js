@@ -24,7 +24,7 @@ function Header(){
                   <NavLink  className="nav-link" exact to="/contact-us">Contact Us</NavLink>
               </li>
               <li className="nav-item">
-                  <NavLink  className="nav-link" exact to="/test1">Test1</NavLink>
+                  <NavLink  className="nav-link" exact to="/blogpage">BlogPage</NavLink>
               </li>
               <li className="nav-item">
                   <NavLink  className="nav-link" exact to="/comment">Comment</NavLink>
@@ -37,8 +37,7 @@ function Header(){
                   <NavLink className="dropdown-item" exact to="/planets">Planets</NavLink>
                   <NavLink className="dropdown-item" exact to="/articles">Articles</NavLink>
                   <NavLink className="dropdown-item" exact to="/contact-us">Contact Us</NavLink>
-                  <NavLink className="dropdown-item" exact to="/Comment
-                  ">Comment</NavLink>
+                  <NavLink className="dropdown-item" exact to="/blogpage">BlogPage</NavLink>
               </div>
             </div>
         </nav>

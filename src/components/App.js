@@ -5,7 +5,7 @@ import Articles from "./Articles";
 import ContactUs from "./ContactUs";
 import Header from "./Header";
 import Footer from "./Footer";
-import Test1 from "./Test1";
+import BlogPage from "./BlogPage";
 import CommentForm from "./CommentForm";
 import {BrowserRouter as Router, Route} from "react-router-dom"
 
@@ -24,8 +24,8 @@ function App() {
       <Route exact path="/articles">
         <Articles/>
       </Route>
-      <Route exact path="/test1">
-        <Test1/>
+      <Route exact path="/blogpage">
+        <BlogPage/>
       </Route>
       <Route exact path="/CommentForm">
         <CommentForm/>
