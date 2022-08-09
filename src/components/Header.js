@@ -20,7 +20,7 @@ function Header(){
               <li className="nav-item">
                   <NavLink  className="nav-link" exact to="/articles">Articles</NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                   <NavLink  className="nav-link" exact to="/contact-us">Contact Us</NavLink>
               </li>
               <li className="nav-item">
@@ -28,7 +28,7 @@ function Header(){
               </li>
               <li className="nav-item">
                   <NavLink  className="nav-link" exact to="/comment">Comment</NavLink>
-              </li>
+              </li> */}
             </ul>
             
       
@@ -36,8 +36,8 @@ function Header(){
                   <NavLink className="dropdown-item" exact to="/">Home</NavLink>
                   <NavLink className="dropdown-item" exact to="/planets">Planets</NavLink>
                   <NavLink className="dropdown-item" exact to="/articles">Articles</NavLink>
-                  <NavLink className="dropdown-item" exact to="/contact-us">Contact Us</NavLink>
-                  <NavLink className="dropdown-item" exact to="/blogpage">BlogPage</NavLink>
+                  {/* <NavLink className="dropdown-item" exact to="/contact-us">Contact Us</NavLink>
+                  <NavLink className="dropdown-item" exact to="/blogpage">BlogPage</NavLink> */}
               </div>
             </div>
         </nav>

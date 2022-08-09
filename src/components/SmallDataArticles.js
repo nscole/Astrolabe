@@ -9,7 +9,7 @@ function SmallDataArticles({result}) {
                <div className="box box1">
               <img id='article-images' src={result.imageUrl} alt="News Images"/>
             </div>
-              <h2>{result.title}</h2>
+              <h2>{result.title}</h2> 
               <p>{result.newsSite}</p>
           </a>
         </div>

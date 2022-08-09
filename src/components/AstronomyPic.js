@@ -19,7 +19,7 @@ function AstronomyPic() {
           <img alt="Space Images" src={spaceImage.url}/>
         </div>
         <h2>{spaceImage.title}</h2>
-        <p>{spaceImage.date}</p>
+        <p className="space-img-date">{spaceImage.date}</p>
       </div>
   </div>;
 }

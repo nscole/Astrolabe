@@ -19,7 +19,8 @@ a:hover {
     color: dimgray; 
 }
 
-p{
+/* NASA picture of the day */
+.space-img-date{
     font-size: 14px;
     font-weight: thin;
     font-style: italic;
@@ -99,8 +100,8 @@ p{
 
 
 .articles-container{
-    padding: 0 15px 0px 15px;
-    height: 155px;
+    padding: 0 15px 13px 15px;
+    height: auto;
 }
 
 .box img {
