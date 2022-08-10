@@ -8,7 +8,8 @@ function CommentForm() {
 
   useEffect((users) => {
     fetchData(users);
-  }, []);
+
+  }, [users]);
 
   const fetchData = async (users) => {
     await fetch("http://localhost:4000/comments", users)

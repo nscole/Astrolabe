@@ -16,7 +16,7 @@ function AstronomyPic() {
     <h1>NASA Picture Of The Day</h1>
       <div className="space-image-container">
         <div className="spacebox box2"> 
-          <img alt="Space Images" src={spaceImage.url}/>
+        {(spaceImage.media_type === "image") ? <img alt="Space Images" src={spaceImage.url}/>: ""}
         </div>
         <h2>{spaceImage.title}</h2>
         <p className="space-img-date">{spaceImage.date}</p>

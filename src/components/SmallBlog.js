@@ -12,7 +12,7 @@ function SmallBlog({result}) {
             <p>{result.newsSite}</p>
         </div>   
         </a>
-    </article>
+    </article> 
   )
 }
 

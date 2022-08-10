@@ -1,34 +1,41 @@
-
-
 /* Blog Css Styling */
-.articles-home-section{
-    background-image: url(/src/assets/articles-image.jpg);
-    background-size:cover;
+ .articles-home-section{
+    background-color: #fffb00;
     display: flex;
-    flex-wrap: wrap;
     height: 500px;
     justify-content: space-around;
     vertical-align: top;
-    padding-top: 100px;
+}
+
+.homepage-articles-header{
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.homepage-art-h1{
+    border-top: 5px solid blueviolet;
+    background-color: white;
+    width: 1090px;
+    color: white;
+}
+.homepage-art-h1 h1{
+    width: 300px;
+    background-color: blueviolet;
 }
 
 
 
 
 
-
-/* Start your journey Button */
+/* Start your journey Section */
 .homepage-image{
+    background-color: #48ff00;
     height: 800px;
     width: 100%;
 }
 
-.homepage-articles-header{
-    margin-top: 40px;
-flex-direction: row;    /* color: white; */
-    position: relative;
-    width: 1000px;
-}
+
 .buttonbox{
     margin-top: 30%;
     position: absolute;
@@ -37,13 +44,18 @@ flex-direction: row;    /* color: white; */
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-
+    align-items: center;
 }
 
 .buttonbox button{
     margin-left: 30px;
 }
 
+
+
+
+
+/* Start your Journey Buttom */
 .glow-on-hover {
     text-transform: uppercase;
     width: 500px;
@@ -68,7 +80,7 @@ flex-direction: row;    /* color: white; */
     left:-2px;
     background-size: 400%;
     z-index: -1;
-    filter: blur(5px);
+    filter: blur(10px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
