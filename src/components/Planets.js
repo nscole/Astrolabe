@@ -23,6 +23,8 @@ function Planets(){
     const [UranusPopUp, setUranusPopUp] = useState(false);
     const [NeptunePopUp, setNeptunePopUp] = useState(false);
 
+
+
     return <div  className="container-fluid planetstogether">
             <div className="planetdivs">
                 <img id="sun-img" src={Sun} alt="Sun Space"/>
