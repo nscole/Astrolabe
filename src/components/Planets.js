@@ -10,8 +10,6 @@ import Saturn from "../assets/Saturn.png";
 import Uranus from "../assets/Uranus.png";
 import Neptune from "../assets/Neptune.png";
 import '../planets.css';
-import '../popup.css';
-
 
 function Planets(){
     const [mercuryPopUp, setMercuryPopUp] = useState(false);
@@ -34,7 +32,7 @@ function Planets(){
                     <button className="buttonStyle" onClick={()=> setMercuryPopUp(true)}><img id="mercury-img" src={Mercury} alt="Mercury Space"/></button>
                     <h5>Mercury</h5>
                 </main>
-                <Popup className="popupstyle" trigger={mercuryPopUp} setTrigger={setMercuryPopUp}>
+                <Popup trigger={mercuryPopUp} setTrigger={setMercuryPopUp}>
                     <img className="popupimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/440px-Mercury_in_true_color.jpg" alt="Planet Mercury"/>
                     <h1>Mercury</h1>
                     <p>Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets.</p>
@@ -45,7 +43,7 @@ function Planets(){
                     <button className="buttonStyle" onClick={()=> setVenusPopUp(true)}><img id="venus-img" src={Venus} alt="Venus Space"/></button>
                     <h5>Venus</h5>
                 </main>
-                <Popup className="popupstyle" trigger={VenusPopUp} setTrigger={setVenusPopUp}>
+                <Popup trigger={VenusPopUp} setTrigger={setVenusPopUp}>
                      <img className="popupimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Venus_from_Mariner_10.jpg/440px-Venus_from_Mariner_10.jpg" alt="Planet Venus"/>
                      <h1>Venus</h1>
                      <p>Venus is the second planet from the Sun and is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be visible to the naked eye in broad daylight.</p>

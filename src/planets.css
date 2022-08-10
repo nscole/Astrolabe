@@ -80,6 +80,38 @@ h5{
 
 
 /* Popup Styling */
+.popup {
+  position: absolute;
+  display: flex;
+
+}
+
+.popup-inner{
+  position: absolute;
+  padding: 32px;
+  width: 640px;
+  height: 300px;
+  max-width: 640px;
+  color: white;
+  background-image: linear-gradient(to bottom right, #5F0A87 , #a4508B)  }
+
+.popup-inner .close-btn{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+
 .popupimg{
-  width: 150px;
+  height: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+.popup-inner h1{
+  font-size: 30px;
+}
+
+.popup-inner p{
+  font-size: 15px;
 }
