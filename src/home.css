@@ -1,6 +1,6 @@
 /* Blog Css Styling */
  .articles-home-section{
-    background-color: #fffb00;
+    /* background-color: #fffb00; */
     display: flex;
     height: 500px;
     justify-content: space-around;
@@ -15,22 +15,26 @@
 
 .homepage-art-h1{
     border-top: 5px solid blueviolet;
-    background-color: white;
     width: 1090px;
     color: white;
 }
 .homepage-art-h1 h1{
+    font-size: 25px;
+    padding: 0px 0px 5px 20px;
     width: 300px;
     background-color: blueviolet;
+    cursor: pointer;
 }
 
-
-
+.bckgr-image{
+    background-image: url(/src/assets/Homepage-imgg.jpg);
+    background-size:cover;
+}
 
 
 /* Start your journey Section */
 .homepage-image{
-    background-color: #48ff00;
+    /* background-color: #48ff00; */
     height: 800px;
     width: 100%;
 }
@@ -118,3 +122,4 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+

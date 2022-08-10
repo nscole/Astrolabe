@@ -10,6 +10,7 @@ function Home(){
     
 
     return <div id="homepage">
+                <div className="bckgr-image">
                 <div className="buttonbox">
                     <button onClick={() => {history.push("/planets");}} className="glow-on-hover" type="button">Journey into space </button>
                 </div>
@@ -19,13 +20,14 @@ function Home(){
                 
                 <div className="articles-home-section">
                     <div className="homepage-articles-header">
-                        <div className="homepage-art-h1">
+                        <div onClick={() => {history.push("/articles");}} className="homepage-art-h1">
                         <h1>Articles</h1>
                         </div>
                         <br/>
                     <div className="box-c"><BlogData/></div>
                     </div>
-                </div>    
+                </div>  
+                </div>  
             </div>    
 
 }
