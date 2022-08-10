@@ -1,6 +1,5 @@
 import React from "react";
 import BlogData from "./BlogData";
-import HomepageImage from "../assets/Homepage-imgg.jpg";
 import {useHistory} from "react-router-dom";
 import '../home.css';
 
