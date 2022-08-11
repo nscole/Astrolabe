@@ -9,7 +9,6 @@
 .homepage-articles-header{
     height: 50px;
     margin-top: 40px;
-    margin-bottom: 20px;
 }
 
 .homepage-art-h1{
@@ -26,7 +25,7 @@
 }
 
 .bckgr-image{
-    background-image: url(/src/assets/Homepage-imgg.jpg);
+    background-image: url(/src/assets/option-2copy.jpg);
     background-size:cover;
 }
 
