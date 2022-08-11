@@ -1,3 +1,15 @@
+/* Planet Header */
+.planet-instruction{
+  position: absolute;
+  top: 200px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.planet-instruction h1{
+  font-size: 35px;
+}
+
 /* Planets Together */
 .row{
     display:flex;
@@ -6,11 +18,11 @@
 }
 
 .planetstogether{
-  background-image: url(/src/assets/nightskyimage.jpg);
+  background-image: url(/src/assets/planets-background-image.jpg);
   background-size: 1500px;
   display: inline-flex;
   align-items: center;
-  height: 800px;
+  height: 790px;
   justify-content: center;
 
 }
@@ -30,7 +42,7 @@ h5{
   text-align: center;
 }
 
-/* Image CSS */
+/* Images CSS */
 #sun-img{
   height: 500px;
   padding-right: 10px;
@@ -83,7 +95,7 @@ h5{
 .popup {
   display: flex;
   position: fixed;
-  top: 36%;
+  top: 37%;
   left: 30%;
 }
 

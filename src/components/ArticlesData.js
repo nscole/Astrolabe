@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import SmallDataArticles from "./SmallDataArticles";
 
-function ArticlesData() {
+function ArticlesData() { 
 
     const [artData, setArtData] = useState([]);
     useEffect(()=>{

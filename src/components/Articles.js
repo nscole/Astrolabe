@@ -4,7 +4,6 @@ import ArticlesData from './ArticlesData';
 import BlogData from './BlogData';
 import '../articles.css';
 
-
 function Articles() {
 
   return (

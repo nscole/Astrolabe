@@ -3,7 +3,7 @@ import BlogData from "./BlogData";
 import {useHistory} from "react-router-dom";
 import '../home.css';
 
-function Home(){
+function Home(){ 
 
     let history = useHistory();
     

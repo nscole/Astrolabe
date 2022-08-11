@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import Popup from "./Popup";
 import Sun from "../assets/sun.jpg";
 import Mercury from "../assets/Mercury.jpg";
 import Venus from "../assets/Venus.jpg";
@@ -9,6 +8,7 @@ import Jupiter from "../assets/Jupiter.png";
 import Saturn from "../assets/Saturn.png";
 import Uranus from "../assets/Uranus.png";
 import Neptune from "../assets/Neptune.png";
+import Popup from "./Popup";
 import '../planets.css';
 
 function Planets(){
@@ -22,8 +22,10 @@ function Planets(){
     const [NeptunePopUp, setNeptunePopUp] = useState(false);
 
 
-
     return <div  className="container-fluid planetstogether">
+            <div className="planet-instruction">
+                <h1>Click the planets to find out more information</h1>
+            </div>
             <div className="planetdivs">
                 <img id="sun-img" src={Sun} alt="Sun Space"/>
             </div>
@@ -32,6 +34,8 @@ function Planets(){
                     <button className="buttonStyle" onClick={()=> setMercuryPopUp(true)}><img id="mercury-img" src={Mercury} alt="Mercury Space"/></button>
                     <h5>Mercury</h5>
                 </main>
+
+                {/* Triggered Event */}
                 <Popup trigger={mercuryPopUp} setTrigger={setMercuryPopUp}>
                     <img className="popupimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/440px-Mercury_in_true_color.jpg" alt="Planet Mercury"/>
                     <h1>Mercury</h1>

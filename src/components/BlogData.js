@@ -9,7 +9,7 @@ function BlogData() {
         fetch("https://api.spaceflightnewsapi.net/v3/blogs?_limit=3")
         .then((r)=>r.json())
         .then((data)=>{
-            // console.log(data),
+            // console.log(data), 
             setBlogData(data);
         })
     },[])

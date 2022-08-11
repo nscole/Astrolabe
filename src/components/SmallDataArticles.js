@@ -2,7 +2,7 @@ import React from 'react'
 
 function SmallDataArticles({result}) {
   return (
-    <div className="articles-container" id={result.id}>
+    <div className="articles-container" id={result.id}> 
         <div className='articles-text'>
           <a href={result.url}>
             

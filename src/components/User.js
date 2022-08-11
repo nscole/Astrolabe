@@ -60,7 +60,7 @@ function User ({ name, email, comment, id, onEdit, onDelete }) {
         </div>
       )}
     </div>
-  );
+  ); 
 };
 
 export default User;

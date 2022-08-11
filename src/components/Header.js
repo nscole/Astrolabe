@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import logo from "../assets/star-logo.png";
-
+import logo from "../assets/astrolabe-logo.png";
+ 
 function Header(){
       return <div className = "container-fluid HeaderNav">
            <nav className="navbar navbar-expand-lg navbar-light justify-content-center">
@@ -20,15 +20,6 @@ function Header(){
               <li className="nav-item">
                   <NavLink  className="nav-link" exact to="/articles">Articles</NavLink>
               </li>
-              {/* <li className="nav-item">
-                  <NavLink  className="nav-link" exact to="/contact-us">Contact Us</NavLink>
-              </li>
-              <li className="nav-item">
-                  <NavLink  className="nav-link" exact to="/blogpage">BlogPage</NavLink>
-              </li>
-              <li className="nav-item">
-                  <NavLink  className="nav-link" exact to="/comment">Comment</NavLink>
-              </li> */}
             </ul>
             
       
@@ -36,8 +27,6 @@ function Header(){
                   <NavLink className="dropdown-item" exact to="/">Home</NavLink>
                   <NavLink className="dropdown-item" exact to="/planets">Planets</NavLink>
                   <NavLink className="dropdown-item" exact to="/articles">Articles</NavLink>
-                  {/* <NavLink className="dropdown-item" exact to="/contact-us">Contact Us</NavLink>
-                  <NavLink className="dropdown-item" exact to="/blogpage">BlogPage</NavLink> */}
               </div>
             </div>
         </nav>

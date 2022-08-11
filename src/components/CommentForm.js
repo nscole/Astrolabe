@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import AddUser from './AddUser'
 import User from "./User"
 
-function CommentForm() {
+function CommentForm() { 
 
   const [users, setUsers] = useState([]);
 
@@ -66,7 +66,7 @@ function CommentForm() {
       .then((users) => {
         // setUsers((users) => [...users, data]);
         const updatedUsers = users.map((user) => {
-          if (user.id == id) {
+          if (user.id === id) {
             user.name = name;
             user.email = email;
             user.comment = comment;

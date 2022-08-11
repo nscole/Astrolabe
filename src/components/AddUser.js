@@ -24,6 +24,6 @@ function AddUser ({ onAdd }) {
       <hr />
     </form>
   );
-};
+}; 
 
 export default AddUser;
