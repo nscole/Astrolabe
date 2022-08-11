@@ -1,6 +1,5 @@
 /* Blog Css Styling */
  .articles-home-section{
-    /* background-color: #fffb00; */
     display: flex;
     height: 500px;
     justify-content: space-around;

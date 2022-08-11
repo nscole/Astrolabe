@@ -88,7 +88,9 @@ function Planets(){
                     <h5>Saturn</h5>
                 </main>
                 <Popup className="popupstyle" trigger={SaturnPopUp} setTrigger={setSaturnPopUp}>
-                     <img className="popupimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/600px-Saturn_during_Equinox.jpg" alt="Planet Saturn"/>
+                    <div className="satimgbackground">
+                     <img className="popupimgsat" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/600px-Saturn_during_Equinox.jpg" alt="Planet Saturn"/>
+                     </div>
                      <h1>Saturn</h1>
                      <p>Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.</p>
                 </Popup>
